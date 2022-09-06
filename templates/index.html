@@ -2,7 +2,7 @@
 
 {% block head %}
 
-<title>Search Page</title>
+<title>Search Page</title> ##
 <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 {% endblock %}
 
@@ -10,10 +10,10 @@
 <div class="content">
     <h1 style="text-align: center">Search</h1>
 
-    <div class="form">
-        <form action="/review" method="POST">
-            <input type="text" name="content" id="content">
-            <input type="submit" value="Search">
+    <div class="form">## try to create a form means where i can fill text it is known as form
+        <form action="/review" method="POST"> ## action wise try to call reviews and method is equla to post
+            <input type="text" name="content" id="content">## it will take input typoe as text
+            <input type="submit" value="Search"> ## here we have given submit button name as search
         </form>
     </div>
 </div>
